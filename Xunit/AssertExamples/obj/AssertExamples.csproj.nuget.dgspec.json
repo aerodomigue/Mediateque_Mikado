@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anthony/Desktop/AssertExamples/AssertExamples.csproj": {}
+  },
+  "projects": {
+    "/Users/anthony/Desktop/AssertExamples/AssertExamples.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anthony/Desktop/AssertExamples/AssertExamples.csproj",
+        "projectName": "AssertExamples",
+        "projectPath": "/Users/anthony/Desktop/AssertExamples/AssertExamples.csproj",
+        "packagesPath": "/Users/anthony/.nuget/packages/",
+        "outputPath": "/Users/anthony/Desktop/AssertExamples/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anthony/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net452": {
+          "dependencies": {
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
